@@ -8,32 +8,40 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # Required to push tags and create release
+      contents: write  # needed to push tags & create/update releases
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # fetch all history so tags are available
 
-      - name: Set up Git
+      - name: Set up Git user
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-      - name: Get plugin version from file
+      - name: Get plugin version
         id: get_version
         run: |
           version=$(grep -E "^\s*\*\s*Version:\s*" doctors-slot-booking.php | awk '{print $NF}')
           echo "version=$version" >> $GITHUB_OUTPUT
 
-      - name: Create Git Tag
+      - name: Create Git Tag if needed
         run: |
-          git tag -a "v${{ steps.get_version.outputs.version }}" -m "Release v${{ steps.get_version.outputs.version }}"
-          git push origin "v${{ steps.get_version.outputs.version }}"
+          git fetch --tags
+          TAG="v${{ steps.get_version.outputs.version }}"
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists → skipping tag creation"
+          else
+            git tag -a "$TAG" -m "Release $TAG"
+            git push origin "$TAG"
+          fi
 
-      - name: Create ZIP archive (no version in name)
+      - name: Create ZIP archive
         run: |
           mkdir -p dist
-          zip -r "dist/doctors-slot-booking.zip" . \
+          zip -r dist/doctors-slot-booking.zip . \
             -x "*.git*" \
             -x ".github/*" \
             -x "dist/*" \
@@ -41,11 +49,11 @@ jobs:
             -x "*.zip" \
             -x ".DS_Store"
 
-      - name: Create GitHub Release & Upload ZIP
+      - name: Publish Release & Upload ZIP
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ steps.get_version.outputs.version }}
-          name: Release v${{ steps.get_version.outputs.version }}
-          files: dist/doctors-slot-booking.zip
+          tag_name: "v${{ steps.get_version.outputs.version }}"
+          name:    "Release v${{ steps.get_version.outputs.version }}"
+          files:   dist/doctors-slot-booking.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
