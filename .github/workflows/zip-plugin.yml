@@ -1,40 +1,51 @@
-name: Zip Plugin Release
+name: Auto Tag and Release Plugin
 
 on:
-  workflow_dispatch:  # 👈 Allows manual trigger from GitHub UI
-  push:
-    tags:
-      - '*'            # Optional: still runs on tag push
+  workflow_dispatch:  # Manual trigger from GitHub UI
 
 jobs:
-  build-zip:
+  build-and-release:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required to push commits and create releases
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Get Plugin Version from PHP File
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+      - name: Get plugin version from file
         id: get_version
         run: |
           version=$(grep -E "^\s*\*\s*Version:\s*" doctors-slot-booking.php | awk '{print $NF}')
           echo "version=$version" >> $GITHUB_OUTPUT
 
-      - name: Create ZIP Archive
+      - name: Create Git Tag
         run: |
-          mkdir -p output
-          zip -r "output/doctors-slot-booking-${{ steps.get_version.outputs.version }}.zip" . \
+          git tag -a "v${{ steps.get_version.outputs.version }}" -m "Release v${{ steps.get_version.outputs.version }}"
+          git push origin "v${{ steps.get_version.outputs.version }}"
+
+      - name: Create ZIP archive
+        run: |
+          mkdir -p dist
+          zip -r "dist/doctors-slot-booking-${{ steps.get_version.outputs.version }}.zip" . \
             -x "*.git*" \
             -x ".github/*" \
-            -x "output/*" \
+            -x "dist/*" \
             -x "*.md" \
             -x "*.zip" \
-            -x ".DS_Store" \
-            -x "readme.md" \
-            -x "documentation/*" 
+            -x ".DS_Store"
 
-      - name: Upload ZIP Artifact
-        uses: actions/upload-artifact@v4
+      - name: Create GitHub Release & Upload ZIP
+        uses: softprops/action-gh-release@v2
         with:
-          name: doctors-slot-booking-${{ steps.get_version.outputs.version }}
-          path: output/doctors-slot-booking-${{ steps.get_version.outputs.version }}.zip
+          tag_name: v${{ steps.get_version.outputs.version }}
+          name: Release v${{ steps.get_version.outputs.version }}
+          files: dist/doctors-slot-booking-${{ steps.get_version.outputs.version }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
