@@ -1,18 +1,6 @@
-=== Doctors Slot Booking ===
-Author: Rahul K
-Author URI:
-Contributors:
-Donate link:
-Tags: products, digital, license, variable
-License: GPLv2 or later
-Requires at least: 5.2
-Tested up to: 6.7
-Stable tag: 1.0.0
+# Doctors Slot Booking
 
 Doctors Slot Booking will will help to manage booking according to doctors availability.
-
-== Description ==
-Doctors Slot Booking is a plugin to handle digital products.
 
 **Key Features:**
 
@@ -23,7 +11,7 @@ Doctors Slot Booking is a plugin to handle digital products.
 -   Disable already booked or unavailable slots
 -   Clean and mobile-friendly form layout
 
-== Installation ==
+### Installation
 
 1. Go to the WordPress admin dashboard.
 2. Navigate to **Plugins → Add New**.
@@ -31,7 +19,7 @@ Doctors Slot Booking is a plugin to handle digital products.
 4. Upload the `doctors-slot-booking.zip` file.
 5. Click **Install Now**, then activate the plugin.
 
-== Usage ==
+## Usage
 
 ### Shortcode
 
@@ -47,12 +35,12 @@ Place the following shortcode on any post, page, or widget where you want the bo
         -   Set working hours
         -   Define custom slot duration (e.g., 10, 15, or 30 minutes)
 
-== Frequently Asked Questions ==
+### Frequently Asked Questions
 
-= Can I set different slot durations for each doctor? =  
+#### Can I set different slot durations for each doctor? ####
 Yes, each doctor can have a custom slot duration like 10, 15, or 30 minutes.
 
-== Changelog ==
-= 1.0.0 =
+### Changelog
+#### 1.0.0 
 
 -   Initial release

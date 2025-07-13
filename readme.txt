@@ -12,7 +12,7 @@ Stable tag: 1.0.0
 Doctors Slot Booking will will help to manage booking according to doctors availability.
 
 == Description ==
-Doctors Slot Booking is a plugin to handle digital products.
+Doctors Slot Booking will will help to manage booking according to doctors availability.
 
 **Key Features:**
 
