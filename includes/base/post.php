@@ -63,9 +63,13 @@ class Post {
                 <p>Best regards,</p>
                 <p>" . get_bloginfo('name') . "</p>";
 
+            $email_subject = 'Appointment Booking Confirmation';
+            $email_content = apply_filters('dslb_booking_confirmed_email_content', $email_content, $recipient, $post_id);
+            $email_subject = apply_filters('dslb_booking_confirmed_email_subject', $email_subject, $recipient, $post_id);
+
             $email = new SendMail(
                 $recipient,
-                'Appointment Booking Confirmation',
+                $email_subject,
                 $email_content,
                 [
                     'Content-Type: text/html; charset=UTF-8',
@@ -79,6 +83,9 @@ class Post {
             $admin_subject = 'New Appointment Booking';
             $admin_content = "<p>A new appointment has been booked:</p>" . $email_content . 
                 "<p>To view the booking, click <a href='" . get_edit_post_link($post_id) . "'>here</a>.</p>";
+
+            $admin_content = apply_filters('dslb_booking_confirmed_admin_email_content', $admin_content, $post_id);
+            $admin_subject = apply_filters('dslb_booking_confirmed_admin_email_subject', $admin_subject, $post_id);
 
             $admin_email = new SendMail(
                 $admin_email,
@@ -129,6 +136,9 @@ class Post {
         } else {
             return;
         }
+
+        $content = apply_filters('dslb_booking_status_change_email_content', $content, $recipient, $post_id, $status);
+        $subject = apply_filters('dslb_booking_status_change_email_subject', $subject, $recipient, $post_id, $status);
 
         $email = new SendMail(
             $recipient,

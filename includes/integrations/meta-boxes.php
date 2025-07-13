@@ -60,10 +60,12 @@ class MetaBoxes {
         wp_nonce_field( 'dslb_doctor_meta_data_update', '__dslb_doctor_meta_nonce' );
 
         $values     = get_post_meta( $post->ID, Schema::getConstant('DOCTOR_META_KEY'), true );
-        $dslb_meta  = is_array($values) ? $values : array();  ?>
-
+        $dslb_meta  = is_array($values) ? $values : array();  
+        
+        do_action('dslb_doctor_meta_fields_before_all', $dslb_meta); ?>
         <table class="form-table">
             <tbody>
+                <?php do_action('dslb_doctor_meta_fields_before', $dslb_meta); ?>
                 <tr>
                     <th scope="row">
                         <label for="dslb_meta[specialization]">
@@ -141,9 +143,11 @@ class MetaBoxes {
                             <?php _e('Duration of each appointment slot in minutes.', 'doctors-slot-booking'); ?>
                         </p>
                     </td>
+                </tr>
+                <?php do_action('dslb_doctor_meta_fields_after', $dslb_meta); ?>
             </tbody>
         </table>
-    <?php
+        <?php do_action('dslb_doctor_meta_fields_after_all', $dslb_meta);
     }
 
     /**
@@ -153,21 +157,33 @@ class MetaBoxes {
         // Add a nonce field so we can check for it later.
         wp_nonce_field( 'dslb_booking_meta_data_update', '__dslb_booking_meta_nonce' );
 
+        // Get existing meta values
+        $fields = [
+            'name',
+            'phone',
+            'email',
+            'doctor_id',
+            'appointment_date',
+            'appointment_time',
+            'symptoms',
+            'status',
+        ];
+
+        $fields = apply_filters('dslb_booking_meta_fields', $fields, $post->ID);
+
         $dslb_meta     = [];
-        $dslb_meta['name'] = get_post_meta( $post->ID, Schema::getConstant('BOOKING_META_KEY').'_name', true );
-        $dslb_meta['phone'] = get_post_meta( $post->ID, Schema::getConstant('BOOKING_META_KEY').'_name', true );
-        $dslb_meta['email'] = get_post_meta( $post->ID, Schema::getConstant('BOOKING_META_KEY').'_email', true );
-        $dslb_meta['doctor_id'] = get_post_meta( $post->ID, Schema::getConstant('BOOKING_META_KEY').'_doctor_id', true );
-        $dslb_meta['appointment_date'] = get_post_meta( $post->ID, Schema::getConstant('BOOKING_META_KEY').'_appointment_date', true );
-        $dslb_meta['appointment_time'] = get_post_meta( $post->ID, Schema::getConstant('BOOKING_META_KEY').'_appointment_time', true );
-        $dslb_meta['symptoms'] = get_post_meta( $post->ID, Schema::getConstant('BOOKING_META_KEY').'_symptoms', true );
-        $dslb_meta['status'] = get_post_meta( $post->ID, Schema::getConstant('BOOKING_META_KEY').'_status', true );
+        foreach ($fields as $field) {
+            $dslb_meta[$field] = get_post_meta($post->ID, Schema::getConstant('BOOKING_META_KEY') . '_' . $field, true);
+        }
+
+        do_action('dslb_booking_meta_fields_before_all', $dslb_meta); ?>
         ?>
         <p>
             <strong><?php _e('Booking Information', 'doctors-slot-booking'); ?></strong><br>
         </p>
         <table class="form-table">
             <tbody>
+                <?php do_action('dslb_booking_meta_fields_before', $dslb_meta); ?>
                 <tr>
                     <th scope="row">
                         <label for="dslb_meta[status]">
@@ -300,9 +316,11 @@ class MetaBoxes {
                         </p>
                     </td>
                 </tr>
+                <?php do_action('dslb_booking_meta_fields_after', $dslb_meta); ?>
             </tbody>
         </table>
-    <?php
+        <?php
+        do_action('dslb_booking_meta_fields_after_all', $dslb_meta);
     }
 
 
@@ -387,15 +405,13 @@ class MetaBoxes {
             'status'            => sanitize_text_field( $_POST['dslb_meta']['status'] ?? '' ),
         );
 
+        // Apply filters to allow modification of the meta data before saving
+        $dslb_meta = apply_filters('dslb_booking_meta_fields_save', $dslb_meta, $post_id);
+
         // Update the meta field in the database.
-        update_post_meta( $post_id, Schema::getConstant('BOOKING_META_KEY').'_name', $dslb_meta['name'] );
-        update_post_meta( $post_id, Schema::getConstant('BOOKING_META_KEY').'_phone', $dslb_meta['phone'] );
-        update_post_meta( $post_id, Schema::getConstant('BOOKING_META_KEY').'_email', $dslb_meta['email'] );
-        update_post_meta( $post_id, Schema::getConstant('BOOKING_META_KEY').'_doctor_id', $dslb_meta['doctor_id'] );
-        update_post_meta( $post_id, Schema::getConstant('BOOKING_META_KEY').'_appointment_date', $dslb_meta['appointment_date'] );
-        update_post_meta( $post_id, Schema::getConstant('BOOKING_META_KEY').'_appointment_time', $dslb_meta['appointment_time'] );
-        update_post_meta( $post_id, Schema::getConstant('BOOKING_META_KEY').'_symptoms', $dslb_meta['symptoms'] );
-        update_post_meta( $post_id, Schema::getConstant('BOOKING_META_KEY').'_status', $dslb_meta['status'] );
+        foreach ( $dslb_meta as $key => $value ) {
+            update_post_meta( $post_id, Schema::getConstant('BOOKING_META_KEY') . '_' . $key, $value );
+        }
     }
 
     public function bookings_columns( $columns ) {

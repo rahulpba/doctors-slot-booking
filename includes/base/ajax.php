@@ -207,7 +207,23 @@ class AjaxHandler {
                 Schema::getConstant('BOOKING_META_KEY') . '_status' => 'confirmed',
             ],
         ];
+        // Apply filters to allow modification of the post data before saving
+        $post_data = apply_filters('dslb_booking_post_data', $post_data, [
+            'doctor_id' => $doctor_id,
+            'date' => $date,
+            'time' => $time,
+            'name' => $name,
+            'email' => $email,
+            'phone' => $phone,
+            'symptoms' => $symptoms
+        ]);
+
+        do_action('dslb_booking_form_before_save', $post_data);
+        
+        // Insert the post into the database
         $post_id = wp_insert_post($post_data);
+
+        do_action('dslb_booking_form_after_save', $post_id);
 
         wp_send_json_success('Appointment booked successfully!');
     }
