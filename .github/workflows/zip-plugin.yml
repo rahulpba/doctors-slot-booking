@@ -1,14 +1,14 @@
 name: Auto Tag and Release Plugin
 
 on:
-  workflow_dispatch:  # Manual trigger from GitHub UI
+  workflow_dispatch:
 
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # Required to push commits and create releases
+      contents: write  # Required to push tags and create release
 
     steps:
       - name: Checkout code
@@ -30,10 +30,10 @@ jobs:
           git tag -a "v${{ steps.get_version.outputs.version }}" -m "Release v${{ steps.get_version.outputs.version }}"
           git push origin "v${{ steps.get_version.outputs.version }}"
 
-      - name: Create ZIP archive
+      - name: Create ZIP archive (no version in name)
         run: |
           mkdir -p dist
-          zip -r "dist/doctors-slot-booking-${{ steps.get_version.outputs.version }}.zip" . \
+          zip -r "dist/doctors-slot-booking.zip" . \
             -x "*.git*" \
             -x ".github/*" \
             -x "dist/*" \
@@ -46,6 +46,6 @@ jobs:
         with:
           tag_name: v${{ steps.get_version.outputs.version }}
           name: Release v${{ steps.get_version.outputs.version }}
-          files: dist/doctors-slot-booking-${{ steps.get_version.outputs.version }}.zip
+          files: dist/doctors-slot-booking.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
