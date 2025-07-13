@@ -1,4 +1,4 @@
-name: Auto Tag and Release Plugin
+name: Release Plugin
 
 on:
   workflow_dispatch:
@@ -8,26 +8,26 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # needed to push tags & create/update releases
+      contents: write  # required to push tags & create releases
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # fetch all history so tags are available
+          fetch-depth: 0  # fetch tags too
 
-      - name: Set up Git user
+      - name: Set up Git
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-      - name: Get plugin version
+      - name: Get plugin version from file
         id: get_version
         run: |
           version=$(grep -E "^\s*\*\s*Version:\s*" doctors-slot-booking.php | awk '{print $NF}')
           echo "version=$version" >> $GITHUB_OUTPUT
 
-      - name: Create Git Tag if needed
+      - name: Create Git Tag if not exists
         run: |
           git fetch --tags
           TAG="v${{ steps.get_version.outputs.version }}"
@@ -38,22 +38,24 @@ jobs:
             git push origin "$TAG"
           fi
 
-      - name: Create ZIP archive
+      - name: Create ZIP archive (excluding files)
         run: |
           mkdir -p dist
           zip -r dist/doctors-slot-booking.zip . \
             -x "*.git*" \
             -x ".github/*" \
-            -x "dist/*" \
+            -x "output/*" \
             -x "*.md" \
             -x "*.zip" \
-            -x ".DS_Store"
+            -x ".DS_Store" \
+            -x "readme.md" \
+            -x "documentation/*"
 
-      - name: Publish Release & Upload ZIP
+      - name: Create GitHub Release & Upload ZIP
         uses: softprops/action-gh-release@v2
         with:
           tag_name: "v${{ steps.get_version.outputs.version }}"
-          name:    "Release v${{ steps.get_version.outputs.version }}"
-          files:   dist/doctors-slot-booking.zip
+          name:     "Release v${{ steps.get_version.outputs.version }}"
+          files:    dist/doctors-slot-booking.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
