@@ -1,12 +1,12 @@
 <?php
 
-namespace Dudlewebs\DSLB;
+namespace RahulK\DSLB;
 
 
 defined('ABSPATH') || exit;
 
 /**
- * Doctors Slot Booking Plugin by Dudlewebs
+ * Doctors Slot Booking Plugin by RahulK
  *
  * The main plugin handler class is responsible for initializing Plugin.
  *

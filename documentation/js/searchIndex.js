@@ -66,549 +66,549 @@ Search.appendIndex(
             "summary": "Plugin\u0020admin\u0020notice\u0020for\u0020minimum\u0020WordPress\u0020version.",
             "url": "namespaces/default.html#function_dslb_wp_version_check_fail"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin",
+            "fqsen": "\\RahulK\\DSLB\\Admin",
             "name": "Admin",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Admin.html"
+            "url": "classes/RahulK-DSLB-Admin.html"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Admin\u0020constructor.",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#method___construct"
+            "url": "classes/RahulK-DSLB-Admin.html#method___construct"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003AadminInit\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003AadminInit\u0028\u0029",
             "name": "adminInit",
             "summary": "Method\u0020that\u0020is\u0020used\u0020on\u0020plugin\u0020initialization\u0020time",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#method_adminInit"
+            "url": "classes/RahulK-DSLB-Admin.html#method_adminInit"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003Aadmin_enqueue_scripts\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003Aadmin_enqueue_scripts\u0028\u0029",
             "name": "admin_enqueue_scripts",
             "summary": "Load\u0020admin\u0020Javascript.",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#method_admin_enqueue_scripts"
+            "url": "classes/RahulK-DSLB-Admin.html#method_admin_enqueue_scripts"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003Aadmin_enqueue_styles\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003Aadmin_enqueue_styles\u0028\u0029",
             "name": "admin_enqueue_styles",
             "summary": "Load\u0020admin\u0020CSS.",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#method_admin_enqueue_styles"
+            "url": "classes/RahulK-DSLB-Admin.html#method_admin_enqueue_styles"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003Aplugin_action_links\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003Aplugin_action_links\u0028\u0029",
             "name": "plugin_action_links",
             "summary": "Show\u0020action\u0020links\u0020on\u0020the\u0020plugin\u0020screen.",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#method_plugin_action_links"
+            "url": "classes/RahulK-DSLB-Admin.html#method_plugin_action_links"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003Aadd_menu\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003Aadd_menu\u0028\u0029",
             "name": "add_menu",
             "summary": "Add\u0020Admin\u0020Menu",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#method_add_menu"
+            "url": "classes/RahulK-DSLB-Admin.html#method_add_menu"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003Asettings_UI\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003Asettings_UI\u0028\u0029",
             "name": "settings_UI",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#method_settings_UI"
+            "url": "classes/RahulK-DSLB-Admin.html#method_settings_UI"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003Aadmin_body_class\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003Aadmin_body_class\u0028\u0029",
             "name": "admin_body_class",
             "summary": "Add\u0020custom\u0020classes\u0020to\u0020the\u0020HTML\u0020body\u0020tag",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#method_admin_body_class"
+            "url": "classes/RahulK-DSLB-Admin.html#method_admin_body_class"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003A\u0024instance",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003A\u0024instance",
             "name": "instance",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#property_instance"
+            "url": "classes/RahulK-DSLB-Admin.html#property_instance"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003A\u0024assets_url",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003A\u0024assets_url",
             "name": "assets_url",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#property_assets_url"
+            "url": "classes/RahulK-DSLB-Admin.html#property_assets_url"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003A\u0024version",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003A\u0024version",
             "name": "version",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#property_version"
+            "url": "classes/RahulK-DSLB-Admin.html#property_version"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003A\u0024token",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003A\u0024token",
             "name": "token",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#property_token"
+            "url": "classes/RahulK-DSLB-Admin.html#property_token"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003A\u0024script_suffix",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003A\u0024script_suffix",
             "name": "script_suffix",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#property_script_suffix"
+            "url": "classes/RahulK-DSLB-Admin.html#property_script_suffix"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003A\u0024dir",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003A\u0024dir",
             "name": "dir",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#property_dir"
+            "url": "classes/RahulK-DSLB-Admin.html#property_dir"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Admin\u003A\u003A\u0024hook_suffix",
+            "fqsen": "\\RahulK\\DSLB\\Admin\u003A\u003A\u0024hook_suffix",
             "name": "hook_suffix",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Admin.html#property_hook_suffix"
+            "url": "classes/RahulK-DSLB-Admin.html#property_hook_suffix"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader",
             "name": "Autoloader",
             "summary": "Plugin\u0020autoloader.",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html"
+            "url": "classes/RahulK-DSLB-Autoloader.html"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader\u003A\u003Arun\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader\u003A\u003Arun\u0028\u0029",
             "name": "run",
             "summary": "Run\u0020autoloader.",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html#method_run"
+            "url": "classes/RahulK-DSLB-Autoloader.html#method_run"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader\u003A\u003Aget_classes_aliases\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader\u003A\u003Aget_classes_aliases\u0028\u0029",
             "name": "get_classes_aliases",
             "summary": "Get\u0020classes\u0020aliases.",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html#method_get_classes_aliases"
+            "url": "classes/RahulK-DSLB-Autoloader.html#method_get_classes_aliases"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader\u003A\u003Aget_classes_map\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader\u003A\u003Aget_classes_map\u0028\u0029",
             "name": "get_classes_map",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html#method_get_classes_map"
+            "url": "classes/RahulK-DSLB-Autoloader.html#method_get_classes_map"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader\u003A\u003Ainit_classes_map\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader\u003A\u003Ainit_classes_map\u0028\u0029",
             "name": "init_classes_map",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html#method_init_classes_map"
+            "url": "classes/RahulK-DSLB-Autoloader.html#method_init_classes_map"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader\u003A\u003Ainit_classes_aliases\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader\u003A\u003Ainit_classes_aliases\u0028\u0029",
             "name": "init_classes_aliases",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html#method_init_classes_aliases"
+            "url": "classes/RahulK-DSLB-Autoloader.html#method_init_classes_aliases"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader\u003A\u003Aload_class\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader\u003A\u003Aload_class\u0028\u0029",
             "name": "load_class",
             "summary": "Load\u0020class.",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html#method_load_class"
+            "url": "classes/RahulK-DSLB-Autoloader.html#method_load_class"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader\u003A\u003Aautoload\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader\u003A\u003Aautoload\u0028\u0029",
             "name": "autoload",
             "summary": "Autoload.",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html#method_autoload"
+            "url": "classes/RahulK-DSLB-Autoloader.html#method_autoload"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader\u003A\u003A\u0024classes_map",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader\u003A\u003A\u0024classes_map",
             "name": "classes_map",
             "summary": "Classes\u0020map.",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html#property_classes_map"
+            "url": "classes/RahulK-DSLB-Autoloader.html#property_classes_map"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader\u003A\u003A\u0024classes_aliases",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader\u003A\u003A\u0024classes_aliases",
             "name": "classes_aliases",
             "summary": "Classes\u0020aliases.",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html#property_classes_aliases"
+            "url": "classes/RahulK-DSLB-Autoloader.html#property_classes_aliases"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader\u003A\u003A\u0024default_path",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader\u003A\u003A\u0024default_path",
             "name": "default_path",
             "summary": "Default\u0020path\u0020for\u0020autoloader.",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html#property_default_path"
+            "url": "classes/RahulK-DSLB-Autoloader.html#property_default_path"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Autoloader\u003A\u003A\u0024default_namespace",
+            "fqsen": "\\RahulK\\DSLB\\Autoloader\u003A\u003A\u0024default_namespace",
             "name": "default_namespace",
             "summary": "Default\u0020namespace\u0020for\u0020autoloader.",
-            "url": "classes/Dudlewebs-DSLB-Autoloader.html#property_default_namespace"
+            "url": "classes/RahulK-DSLB-Autoloader.html#property_default_namespace"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\AjaxHandler",
+            "fqsen": "\\RahulK\\DSLB\\AjaxHandler",
             "name": "AjaxHandler",
             "summary": "Ajax\u0020Handler\u0020for\u0020Doctors\u0020Slot\u0020Booking\u0020Plugin.",
-            "url": "classes/Dudlewebs-DSLB-AjaxHandler.html"
+            "url": "classes/RahulK-DSLB-AjaxHandler.html"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\AjaxHandler\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\AjaxHandler\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Admin\u0020constructor.",
-            "url": "classes/Dudlewebs-DSLB-AjaxHandler.html#method___construct"
+            "url": "classes/RahulK-DSLB-AjaxHandler.html#method___construct"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\AjaxHandler\u003A\u003Aget_available_days\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\AjaxHandler\u003A\u003Aget_available_days\u0028\u0029",
             "name": "get_available_days",
             "summary": "Get\u0020available\u0020days\u0020for\u0020a\u0020selected\u0020doctor.",
-            "url": "classes/Dudlewebs-DSLB-AjaxHandler.html#method_get_available_days"
+            "url": "classes/RahulK-DSLB-AjaxHandler.html#method_get_available_days"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\AjaxHandler\u003A\u003Aget_available_slots\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\AjaxHandler\u003A\u003Aget_available_slots\u0028\u0029",
             "name": "get_available_slots",
             "summary": "Get\u0020available\u0020time\u0020slots\u0020for\u0020a\u0020selected\u0020doctor\u0020and\u0020date.",
-            "url": "classes/Dudlewebs-DSLB-AjaxHandler.html#method_get_available_slots"
+            "url": "classes/RahulK-DSLB-AjaxHandler.html#method_get_available_slots"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\AjaxHandler\u003A\u003Abook_appointment\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\AjaxHandler\u003A\u003Abook_appointment\u0028\u0029",
             "name": "book_appointment",
             "summary": "Submit\u0020a\u0020booking.",
-            "url": "classes/Dudlewebs-DSLB-AjaxHandler.html#method_book_appointment"
+            "url": "classes/RahulK-DSLB-AjaxHandler.html#method_book_appointment"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\AjaxHandler\u003A\u003A\u0024instance",
+            "fqsen": "\\RahulK\\DSLB\\AjaxHandler\u003A\u003A\u0024instance",
             "name": "instance",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-AjaxHandler.html#property_instance"
+            "url": "classes/RahulK-DSLB-AjaxHandler.html#property_instance"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\AjaxHandler\u003A\u003A\u0024assets_url",
+            "fqsen": "\\RahulK\\DSLB\\AjaxHandler\u003A\u003A\u0024assets_url",
             "name": "assets_url",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-AjaxHandler.html#property_assets_url"
+            "url": "classes/RahulK-DSLB-AjaxHandler.html#property_assets_url"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\AjaxHandler\u003A\u003A\u0024version",
+            "fqsen": "\\RahulK\\DSLB\\AjaxHandler\u003A\u003A\u0024version",
             "name": "version",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-AjaxHandler.html#property_version"
+            "url": "classes/RahulK-DSLB-AjaxHandler.html#property_version"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\AjaxHandler\u003A\u003A\u0024token",
+            "fqsen": "\\RahulK\\DSLB\\AjaxHandler\u003A\u003A\u0024token",
             "name": "token",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-AjaxHandler.html#property_token"
+            "url": "classes/RahulK-DSLB-AjaxHandler.html#property_token"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Cpt",
+            "fqsen": "\\RahulK\\DSLB\\Cpt",
             "name": "Cpt",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Cpt.html"
+            "url": "classes/RahulK-DSLB-Cpt.html"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Cpt\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Cpt\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Admin\u0020constructor.",
-            "url": "classes/Dudlewebs-DSLB-Cpt.html#method___construct"
+            "url": "classes/RahulK-DSLB-Cpt.html#method___construct"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Cpt\u003A\u003Ainit\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Cpt\u003A\u003Ainit\u0028\u0029",
             "name": "init",
             "summary": "Initialize\u0020the\u0020custom\u0020post\u0020type.",
-            "url": "classes/Dudlewebs-DSLB-Cpt.html#method_init"
+            "url": "classes/RahulK-DSLB-Cpt.html#method_init"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Cpt\u003A\u003A\u0024instance",
+            "fqsen": "\\RahulK\\DSLB\\Cpt\u003A\u003A\u0024instance",
             "name": "instance",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Cpt.html#property_instance"
+            "url": "classes/RahulK-DSLB-Cpt.html#property_instance"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Cpt\u003A\u003A\u0024assets_url",
+            "fqsen": "\\RahulK\\DSLB\\Cpt\u003A\u003A\u0024assets_url",
             "name": "assets_url",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Cpt.html#property_assets_url"
+            "url": "classes/RahulK-DSLB-Cpt.html#property_assets_url"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Cpt\u003A\u003A\u0024version",
+            "fqsen": "\\RahulK\\DSLB\\Cpt\u003A\u003A\u0024version",
             "name": "version",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Cpt.html#property_version"
+            "url": "classes/RahulK-DSLB-Cpt.html#property_version"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Cpt\u003A\u003A\u0024token",
+            "fqsen": "\\RahulK\\DSLB\\Cpt\u003A\u003A\u0024token",
             "name": "token",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Cpt.html#property_token"
+            "url": "classes/RahulK-DSLB-Cpt.html#property_token"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail",
+            "fqsen": "\\RahulK\\DSLB\\SendMail",
             "name": "SendMail",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html"
+            "url": "classes/RahulK-DSLB-SendMail.html"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#method___construct"
+            "url": "classes/RahulK-DSLB-SendMail.html#method___construct"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003Aset_header\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003Aset_header\u0028\u0029",
             "name": "set_header",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#method_set_header"
+            "url": "classes/RahulK-DSLB-SendMail.html#method_set_header"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003Aset_footer\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003Aset_footer\u0028\u0029",
             "name": "set_footer",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#method_set_footer"
+            "url": "classes/RahulK-DSLB-SendMail.html#method_set_footer"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003Asend\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003Asend\u0028\u0029",
             "name": "send",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#method_send"
+            "url": "classes/RahulK-DSLB-SendMail.html#method_send"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003Aget_template\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003Aget_template\u0028\u0029",
             "name": "get_template",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#method_get_template"
+            "url": "classes/RahulK-DSLB-SendMail.html#method_get_template"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003A\u0024to",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003A\u0024to",
             "name": "to",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#property_to"
+            "url": "classes/RahulK-DSLB-SendMail.html#property_to"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003A\u0024subject",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003A\u0024subject",
             "name": "subject",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#property_subject"
+            "url": "classes/RahulK-DSLB-SendMail.html#property_subject"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003A\u0024content",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003A\u0024content",
             "name": "content",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#property_content"
+            "url": "classes/RahulK-DSLB-SendMail.html#property_content"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003A\u0024headers",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003A\u0024headers",
             "name": "headers",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#property_headers"
+            "url": "classes/RahulK-DSLB-SendMail.html#property_headers"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003A\u0024attachments",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003A\u0024attachments",
             "name": "attachments",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#property_attachments"
+            "url": "classes/RahulK-DSLB-SendMail.html#property_attachments"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003A\u0024email_header",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003A\u0024email_header",
             "name": "email_header",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#property_email_header"
+            "url": "classes/RahulK-DSLB-SendMail.html#property_email_header"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\SendMail\u003A\u003A\u0024email_footer",
+            "fqsen": "\\RahulK\\DSLB\\SendMail\u003A\u003A\u0024email_footer",
             "name": "email_footer",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-SendMail.html#property_email_footer"
+            "url": "classes/RahulK-DSLB-SendMail.html#property_email_footer"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Post",
+            "fqsen": "\\RahulK\\DSLB\\Post",
             "name": "Post",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Post.html"
+            "url": "classes/RahulK-DSLB-Post.html"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Post\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Post\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Post\u0020constructor.",
-            "url": "classes/Dudlewebs-DSLB-Post.html#method___construct"
+            "url": "classes/RahulK-DSLB-Post.html#method___construct"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Post\u003A\u003Asave_post\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Post\u003A\u003Asave_post\u0028\u0029",
             "name": "save_post",
             "summary": "Save\u0020post\u0020callback.",
-            "url": "classes/Dudlewebs-DSLB-Post.html#method_save_post"
+            "url": "classes/RahulK-DSLB-Post.html#method_save_post"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Post\u003A\u003Asend_email_on_booking_status_change\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Post\u003A\u003Asend_email_on_booking_status_change\u0028\u0029",
             "name": "send_email_on_booking_status_change",
             "summary": "Send\u0020email\u0020on\u0020booking\u0020status\u0020change.",
-            "url": "classes/Dudlewebs-DSLB-Post.html#method_send_email_on_booking_status_change"
+            "url": "classes/RahulK-DSLB-Post.html#method_send_email_on_booking_status_change"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Post\u003A\u003A\u0024instance",
+            "fqsen": "\\RahulK\\DSLB\\Post\u003A\u003A\u0024instance",
             "name": "instance",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Post.html#property_instance"
+            "url": "classes/RahulK-DSLB-Post.html#property_instance"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Post\u003A\u003A\u0024assets_url",
+            "fqsen": "\\RahulK\\DSLB\\Post\u003A\u003A\u0024assets_url",
             "name": "assets_url",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Post.html#property_assets_url"
+            "url": "classes/RahulK-DSLB-Post.html#property_assets_url"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Post\u003A\u003A\u0024version",
+            "fqsen": "\\RahulK\\DSLB\\Post\u003A\u003A\u0024version",
             "name": "version",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Post.html#property_version"
+            "url": "classes/RahulK-DSLB-Post.html#property_version"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Post\u003A\u003A\u0024token",
+            "fqsen": "\\RahulK\\DSLB\\Post\u003A\u003A\u0024token",
             "name": "token",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Post.html#property_token"
+            "url": "classes/RahulK-DSLB-Post.html#property_token"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Shortcodes",
+            "fqsen": "\\RahulK\\DSLB\\Shortcodes",
             "name": "Shortcodes",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Shortcodes.html"
+            "url": "classes/RahulK-DSLB-Shortcodes.html"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Shortcodes\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Shortcodes\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Admin\u0020constructor.",
-            "url": "classes/Dudlewebs-DSLB-Shortcodes.html#method___construct"
+            "url": "classes/RahulK-DSLB-Shortcodes.html#method___construct"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Shortcodes\u003A\u003Ainit_shortcodes\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Shortcodes\u003A\u003Ainit_shortcodes\u0028\u0029",
             "name": "init_shortcodes",
             "summary": "Initialize\u0020shortcodes.",
-            "url": "classes/Dudlewebs-DSLB-Shortcodes.html#method_init_shortcodes"
+            "url": "classes/RahulK-DSLB-Shortcodes.html#method_init_shortcodes"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Shortcodes\u003A\u003Ashow_booking_form\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Shortcodes\u003A\u003Ashow_booking_form\u0028\u0029",
             "name": "show_booking_form",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Shortcodes.html#method_show_booking_form"
+            "url": "classes/RahulK-DSLB-Shortcodes.html#method_show_booking_form"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Shortcodes\u003A\u003A\u0024instance",
+            "fqsen": "\\RahulK\\DSLB\\Shortcodes\u003A\u003A\u0024instance",
             "name": "instance",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Shortcodes.html#property_instance"
+            "url": "classes/RahulK-DSLB-Shortcodes.html#property_instance"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Shortcodes\u003A\u003A\u0024assets_url",
+            "fqsen": "\\RahulK\\DSLB\\Shortcodes\u003A\u003A\u0024assets_url",
             "name": "assets_url",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Shortcodes.html#property_assets_url"
+            "url": "classes/RahulK-DSLB-Shortcodes.html#property_assets_url"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Shortcodes\u003A\u003A\u0024version",
+            "fqsen": "\\RahulK\\DSLB\\Shortcodes\u003A\u003A\u0024version",
             "name": "version",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Shortcodes.html#property_version"
+            "url": "classes/RahulK-DSLB-Shortcodes.html#property_version"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Shortcodes\u003A\u003A\u0024token",
+            "fqsen": "\\RahulK\\DSLB\\Shortcodes\u003A\u003A\u0024token",
             "name": "token",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Shortcodes.html#property_token"
+            "url": "classes/RahulK-DSLB-Shortcodes.html#property_token"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Schema",
+            "fqsen": "\\RahulK\\DSLB\\Schema",
             "name": "Schema",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Schema.html"
+            "url": "classes/RahulK-DSLB-Schema.html"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Schema\u003A\u003Ainit\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Schema\u003A\u003Ainit\u0028\u0029",
             "name": "init",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Schema.html#method_init"
+            "url": "classes/RahulK-DSLB-Schema.html#method_init"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Schema\u003A\u003AgetConstant\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Schema\u003A\u003AgetConstant\u0028\u0029",
             "name": "getConstant",
             "summary": "Get\u0020schema\u0020constant\u0020by\u0020key.",
-            "url": "classes/Dudlewebs-DSLB-Schema.html#method_getConstant"
+            "url": "classes/RahulK-DSLB-Schema.html#method_getConstant"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Schema\u003A\u003A\u0024constants",
+            "fqsen": "\\RahulK\\DSLB\\Schema\u003A\u003A\u0024constants",
             "name": "constants",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Schema.html#property_constants"
+            "url": "classes/RahulK-DSLB-Schema.html#property_constants"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Schema\u003A\u003A\u0024service_labels",
+            "fqsen": "\\RahulK\\DSLB\\Schema\u003A\u003A\u0024service_labels",
             "name": "service_labels",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Schema.html#property_service_labels"
+            "url": "classes/RahulK-DSLB-Schema.html#property_service_labels"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes",
             "name": "MetaBoxes",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Admin\u0020constructor.",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#method___construct"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#method___construct"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003Ameta_boxes\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003Ameta_boxes\u0028\u0029",
             "name": "meta_boxes",
             "summary": "Add\u0020Meta\u0020Boxes",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#method_meta_boxes"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#method_meta_boxes"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003Ameta_box_doctor\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003Ameta_box_doctor\u0028\u0029",
             "name": "meta_box_doctor",
             "summary": "Metabox\u0020for\u0020Doctor\u0020CPT",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#method_meta_box_doctor"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#method_meta_box_doctor"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003Ameta_box_booking\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003Ameta_box_booking\u0028\u0029",
             "name": "meta_box_booking",
             "summary": "Metabox\u0020for\u0020Booking\u0020CPT",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#method_meta_box_booking"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#method_meta_box_booking"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003Adoctor_save_meta_boxes\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003Adoctor_save_meta_boxes\u0028\u0029",
             "name": "doctor_save_meta_boxes",
             "summary": "Metaboxes\u0020Save\u0020for\u0020Doctor\u0020CPT",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#method_doctor_save_meta_boxes"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#method_doctor_save_meta_boxes"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003Abooking_save_meta_boxes\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003Abooking_save_meta_boxes\u0028\u0029",
             "name": "booking_save_meta_boxes",
             "summary": "Metaboxes\u0020Save\u0020for\u0020Booking\u0020CPT",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#method_booking_save_meta_boxes"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#method_booking_save_meta_boxes"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003Abookings_columns\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003Abookings_columns\u0028\u0029",
             "name": "bookings_columns",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#method_bookings_columns"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#method_bookings_columns"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003Abookings_columns_content\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003Abookings_columns_content\u0028\u0029",
             "name": "bookings_columns_content",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#method_bookings_columns_content"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#method_bookings_columns_content"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003Aadd_bookings_filter_dropdown\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003Aadd_bookings_filter_dropdown\u0028\u0029",
             "name": "add_bookings_filter_dropdown",
             "summary": "Add\u0020filter\u0020dropdown\u0020for\u0020bookings",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#method_add_bookings_filter_dropdown"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#method_add_bookings_filter_dropdown"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003Afilter_bookings\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003Afilter_bookings\u0028\u0029",
             "name": "filter_bookings",
             "summary": "Filter\u0020bookings\u0020based\u0020on\u0020selected\u0020status",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#method_filter_bookings"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#method_filter_bookings"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003Afilter_bookings_search\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003Afilter_bookings_search\u0028\u0029",
             "name": "filter_bookings_search",
             "summary": "Filter\u0020bookings\u0020search\u0020query",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#method_filter_bookings_search"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#method_filter_bookings_search"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003A\u0024instance",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003A\u0024instance",
             "name": "instance",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#property_instance"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#property_instance"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003A\u0024assets_url",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003A\u0024assets_url",
             "name": "assets_url",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#property_assets_url"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#property_assets_url"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003A\u0024version",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003A\u0024version",
             "name": "version",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#property_version"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#property_version"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\MetaBoxes\u003A\u003A\u0024token",
+            "fqsen": "\\RahulK\\DSLB\\MetaBoxes\u003A\u003A\u0024token",
             "name": "token",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-MetaBoxes.html#property_token"
+            "url": "classes/RahulK-DSLB-MetaBoxes.html#property_token"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main",
+            "fqsen": "\\RahulK\\DSLB\\Main",
             "name": "Main",
-            "summary": "Doctors\u0020Slot\u0020Booking\u0020Plugin\u0020by\u0020Dudlewebs",
-            "url": "classes/Dudlewebs-DSLB-Main.html"
+            "summary": "Doctors\u0020Slot\u0020Booking\u0020Plugin\u0020by\u0020RahulK",
+            "url": "classes/RahulK-DSLB-Main.html"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Main\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Plugin\u0020constructor.\u002B",
-            "url": "classes/Dudlewebs-DSLB-Main.html#method___construct"
+            "url": "classes/RahulK-DSLB-Main.html#method___construct"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main\u003A\u003Ainstall\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Main\u003A\u003Ainstall\u0028\u0029",
             "name": "install",
             "summary": "Installation.\u0020Runs\u0020on\u0020activation.",
-            "url": "classes/Dudlewebs-DSLB-Main.html#method_install"
+            "url": "classes/RahulK-DSLB-Main.html#method_install"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main\u003A\u003Adeactivation\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Main\u003A\u003Adeactivation\u0028\u0029",
             "name": "deactivation",
             "summary": "Deactivation\u0020Hook",
-            "url": "classes/Dudlewebs-DSLB-Main.html#method_deactivation"
+            "url": "classes/RahulK-DSLB-Main.html#method_deactivation"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main\u003A\u003Aregister_autoloader\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Main\u003A\u003Aregister_autoloader\u0028\u0029",
             "name": "register_autoloader",
             "summary": "Register\u0020autoloader.",
-            "url": "classes/Dudlewebs-DSLB-Main.html#method_register_autoloader"
+            "url": "classes/RahulK-DSLB-Main.html#method_register_autoloader"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main\u003A\u003A\u0024instance",
+            "fqsen": "\\RahulK\\DSLB\\Main\u003A\u003A\u0024instance",
             "name": "instance",
             "summary": "Instance.",
-            "url": "classes/Dudlewebs-DSLB-Main.html#property_instance"
+            "url": "classes/RahulK-DSLB-Main.html#property_instance"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main\u003A\u003Ainit\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Main\u003A\u003Ainit\u0028\u0029",
             "name": "init",
             "summary": "Init.",
-            "url": "classes/Dudlewebs-DSLB-Main.html#method_init"
+            "url": "classes/RahulK-DSLB-Main.html#method_init"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main\u003A\u003Ainit_components\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Main\u003A\u003Ainit_components\u0028\u0029",
             "name": "init_components",
             "summary": "Init\u0020components.",
-            "url": "classes/Dudlewebs-DSLB-Main.html#method_init_components"
+            "url": "classes/RahulK-DSLB-Main.html#method_init_components"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main\u003A\u003Aon_rest_api_init\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Main\u003A\u003Aon_rest_api_init\u0028\u0029",
             "name": "on_rest_api_init",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Main.html#method_on_rest_api_init"
+            "url": "classes/RahulK-DSLB-Main.html#method_on_rest_api_init"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main\u003A\u003A__clone\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Main\u003A\u003A__clone\u0028\u0029",
             "name": "__clone",
             "summary": "Clone.",
-            "url": "classes/Dudlewebs-DSLB-Main.html#method___clone"
+            "url": "classes/RahulK-DSLB-Main.html#method___clone"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main\u003A\u003A__wakeup\u0028\u0029",
+            "fqsen": "\\RahulK\\DSLB\\Main\u003A\u003A__wakeup\u0028\u0029",
             "name": "__wakeup",
             "summary": "Wakeup.",
-            "url": "classes/Dudlewebs-DSLB-Main.html#method___wakeup"
+            "url": "classes/RahulK-DSLB-Main.html#method___wakeup"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB\\Main\u003A\u003A\u0024token",
+            "fqsen": "\\RahulK\\DSLB\\Main\u003A\u003A\u0024token",
             "name": "token",
             "summary": "",
-            "url": "classes/Dudlewebs-DSLB-Main.html#property_token"
+            "url": "classes/RahulK-DSLB-Main.html#property_token"
         },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
             "url": "namespaces/default.html"
         },                {
-            "fqsen": "\\Dudlewebs\\DSLB",
+            "fqsen": "\\RahulK\\DSLB",
             "name": "DSLB",
             "summary": "",
-            "url": "namespaces/dudlewebs-dslb.html"
+            "url": "namespaces/rahulk-dslb.html"
         },                {
-            "fqsen": "\\Dudlewebs",
-            "name": "Dudlewebs",
+            "fqsen": "\\RahulK",
+            "name": "RahulK",
             "summary": "",
-            "url": "namespaces/dudlewebs.html"
+            "url": "namespaces/rahulk.html"
         }            ]
 );

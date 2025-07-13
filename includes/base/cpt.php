@@ -1,5 +1,5 @@
 <?php
-namespace Dudlewebs\DSLB;
+namespace RahulK\DSLB;
 
 defined('ABSPATH') || exit;
 

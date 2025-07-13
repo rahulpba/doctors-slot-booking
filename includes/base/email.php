@@ -1,5 +1,5 @@
 <?php
-namespace Dudlewebs\DSLB;
+namespace RahulK\DSLB;
 
 defined('ABSPATH') || exit;
 
@@ -10,7 +10,7 @@ class SendMail {
     protected $headers = [];
     protected $attachments = [];
 
-    protected $email_header = 'Dudlewebs';
+    protected $email_header = 'RahulK';
     protected $email_footer;
 
     public function __construct($to, $subject, $content, $headers = [], $attachments = []) {
