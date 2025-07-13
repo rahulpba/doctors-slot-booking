@@ -7,3 +7,5 @@ scoper.inc.php
 .LSOverride
 .Trashes
 __MACOSX
+.phpdoc
+phpDocumentor.phar
