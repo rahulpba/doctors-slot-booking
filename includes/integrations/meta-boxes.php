@@ -177,7 +177,6 @@ class MetaBoxes {
         }
 
         do_action('dslb_booking_meta_fields_before_all', $dslb_meta); ?>
-        ?>
         <p>
             <strong><?php _e('Booking Information', 'doctors-slot-booking'); ?></strong><br>
         </p>
