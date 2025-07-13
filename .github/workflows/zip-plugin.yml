@@ -45,6 +45,7 @@ jobs:
             -x "*.git*" \
             -x ".github/*" \
             -x "output/*" \
+            -x "dist/*" \
             -x "*.md" \
             -x "*.zip" \
             -x ".DS_Store" \
