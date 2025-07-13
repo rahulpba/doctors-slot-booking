@@ -1,0 +1,71 @@
+.dslb-booking-form {
+	max-width: 500px;
+	margin: 0 auto;
+	background: #f9f9f9;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.dslb-booking-form .dslb-row {
+	margin-bottom: 15px;
+}
+
+.dslb-booking-form .dslb-row:last-child {
+	margin-bottom: 0;
+}
+
+.dslb-booking-form label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.dslb-booking-form label span {
+	color: #bc1818;
+	font-weight: normal;
+}
+
+.dslb-booking-form input,
+.dslb-booking-form select,
+.dslb-booking-form textarea {
+	width: 100%;
+	box-sizing: border-box;
+	transition: 0.3s ease-in-out all;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding: 12px 15px;
+}
+.dslb-booking-form input.dslb-error,
+.dslb-booking-form select.dslb-error,
+.dslb-booking-form textarea.dslb-error {
+	border: 1px solid #bc1818;
+}
+.dslb-booking-form .dslb-row .dslb-error-message {
+	color: #bc1818;
+	margin-top: 5px;
+	font-size: 0.9em;
+}
+
+.dslb-booking-form .dslb-book-appointment {
+	padding: 10px 15px;
+	background: #0073aa;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.dslb-booking-form .dslb-book-appointment:hover {
+	background: #005a8c;
+}
+
+.dslb-booking-response {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.dslb-booking-response .dslb-success {
+	color: #3c763d;
+}
+.dslb-booking-response .dslb-error {
+	color: #bc1818;
+}

@@ -1,0 +1,34 @@
+.dslb-status-pending {
+	background-color: #f0ad4e;
+	color: #fff;
+}
+
+.dslb-status-completed {
+	background-color: #5cb85c;
+	color: #fff;
+}
+.dslb-status-cancelled {
+	background-color: #d9534f;
+	color: #fff;
+}
+.dslb-status-rescheduled {
+	background-color: #5bc0de;
+	color: #fff;
+}
+.dslb-status-confirmed {
+	background-color: #337ab7;
+	color: #fff;
+}
+.dslb-status-unknown {
+	background-color: #777;
+	color: #fff;
+}
+.dslb-status {
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+	font-size: 14px;
+}

@@ -1,0 +1,9 @@
+.vscode
+action-scheduler-trunk
+scoper.inc.php
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+__MACOSX
