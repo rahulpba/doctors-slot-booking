@@ -27,7 +27,8 @@ $token = defined('DSLB_TOKEN') ? DSLB_TOKEN : 'dslb'; ?>
             <?php
             $doctors = get_posts(['post_type' => 'dslb_doctor', 'numberposts' => -1]);
             foreach ($doctors as $doc) {
-                echo '<option value="' . esc_attr($doc->ID) . '">' . esc_html($doc->post_title) . '</option>';
+                $specialization = get_post_meta( $doc->ID, Schema::getConstant('DOCTOR_META_KEY'), true )['specialization'] ?? '';
+                echo '<option value="' . esc_attr($doc->ID) . '">' . esc_html($doc->post_title) . ' (' . esc_html($specialization) . ')</option>';
             }
             ?>
         </select>

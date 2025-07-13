@@ -61,6 +61,10 @@ jQuery(function ($) {
 						const availableDays = response.days;
 
 						$("#dslb_booking_date").flatpickr({
+							minDate: "today",
+							dateFormat: "Y-m-d",
+							enableTime: false,
+							// Disable dates that are not in the available days
 							disable: [
 								function (date) {
 									return !availableDays.includes(
