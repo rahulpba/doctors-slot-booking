@@ -35,12 +35,18 @@ Place the following shortcode on any post, page, or widget where you want the bo
         -   Set working hours
         -   Define custom slot duration (e.g., 10, 15, or 30 minutes)
 
+### API Documentation
+
+API Documentation: [Visit](https://doctors-slot-booking-documentation.vercel.app/)
+
 ### Frequently Asked Questions
 
-#### Can I set different slot durations for each doctor? ####
+#### Can I set different slot durations for each doctor?
+
 Yes, each doctor can have a custom slot duration like 10, 15, or 30 minutes.
 
 ### Changelog
-#### 1.0.0 
+
+#### 1.0.0
 
 -   Initial release
